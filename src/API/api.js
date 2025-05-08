@@ -6,7 +6,7 @@ export const getPokemon = (serchName) => {
             return response.json();
         }
         return Promise.reject(
-            new Error(`ШУЄ? ${name}`)
+            new Error(`Покемона з ім'ям? ${serchName} не знайдено`)
         )
     })
 };
