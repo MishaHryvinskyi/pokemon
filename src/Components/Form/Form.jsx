@@ -28,7 +28,7 @@ const Form = ({ handleData }) => {
                 value={pokemonName}
                 placeholder="введіть ім'я покемона"
             />
-            <button type="submit">
+            <button type="submit" aria-label="search-button">
                 <FaSearch />
             </button>
             <ToastContainer />
